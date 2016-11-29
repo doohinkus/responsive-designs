@@ -1,0 +1,56 @@
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px solid #000;
+}
+
+.big-box {
+  width: 60vw;
+  height: 40vw;
+  float: left;
+  margin-left: 2.5vw;
+}
+
+.small-box-2, .small-box-1 {
+  width: 30vw;
+  height: 19vw;
+  float: right;
+  margin-bottom:2vw;
+  display: inline-block;
+  margin-right: 2vw;
+}
+.left-content{
+  clear:both;
+  float: left;
+  width: 50vw;
+  margin-left: 2vw;
+}
+.right-content{
+  float: right;
+  height: 31.5vw;
+  width: 30vw;
+  margin-right: 2vw;
+}
+.top-left-content{
+  height: 15vw;
+}
+.bottom-left-content{
+  margin-top: 1.5vw;
+  height: 15vw;
+  width: 24vw;
+  float: left;
+}
+.bottom-right-content{
+  margin-top: 1.5vw;
+  height: 15vw;
+  width: 24vw;
+  float: right;
+}
+.top-right-content{
+  height: 15vw;
+  margin-bottom: 2.25vw;
+}
+.bottom-right-left-content, .bottom-right-right-content{
+  height: 6vw;
+  margin-bottom: 2.25vw;
+
+}
