@@ -2,7 +2,17 @@
   box-sizing:border-box;
   border:1px solid #000;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
 
+
+/*DESKTOP*/
+@media screen and (min-width:750px) {
+.hidden-navigation{
+  display: none;
+}
 .big-box {
   width: 60vw;
   height: 40vw;
@@ -52,5 +62,96 @@
 .bottom-right-left-content, .bottom-right-right-content{
   height: 6vw;
   margin-bottom: 2.25vw;
+}
+}
+
+/*TABLET*/
+@media screen and (min-width:600px) and (max-width:749px) {
+  .hidden-navigation{
+    display: none;
+  }
+  .small-box-2, .small-box-1 {
+    width: 47vw;
+    height: 19vw;
+    clear: both;
+    margin-top: 3vw;
+    margin-bottom:2vw;
+    display: inline-block;
+  }
+.small-box-1 {
+  margin-right: 3vw;
+}
+
+.big-box {
+  height: 40vh;
+}
+.top-left-content{
+  height: 15vh;
+}
+.bottom-left-content{
+  margin-top: 1.5vw;
+  height: 15vw;
+  width: 47vw;
+  float: left;
+  margin-bottom: 2.25vw;
+}
+.bottom-right-content{
+  margin-top: 1.5vw;
+  height: 15vw;
+  width: 47vw;
+  float: right;
+}
+.top-right-content{
+  height: 15vw;
+  margin-bottom: 2.25vw;
+  clear: both;
+}
+.bottom-right-left-content, .bottom-right-right-content{
+  height: 6vw;
+  margin-bottom: 2.25vw;
+  clear: both;
+}
+
+
+}
+
+/*MOBILE*/
+@media screen and (max-width:599px) {
+body {
+  margin: 5vw;
+}
+.hidden-navigation{
+  height: 5vh;
+}
+.big-box {
+  height: 20vh;
+  margin-top: 1.5vw;
+  margin-bottom: 1.5vw;
+}
+.small-box-2, .small-box-1 {
+  height: 19vw;
+  margin-bottom:2vw;
+}
+.top-left-content{
+  height: 5vh;
+}
+.bottom-left-content{
+  margin-top: 2.5vw;
+  height: 15vw;
+  margin-bottom: 2.25vw;
+}
+.bottom-right-content{
+  margin-top: 1.5vw;
+  height: 15vw;
+}
+.top-right-content{
+  height: 15vw;
+  margin-bottom: 2.25vw;
+  margin-top: 1.5vw;
+}
+.bottom-right-left-content, .bottom-right-right-content{
+  height: 6vw;
+  margin-bottom: 2.25vw;
+}
 
 }

@@ -1,0 +1,197 @@
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px solid #000;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*DESKTOP*/
+@media screen and (min-width:750px) {
+  .title1 {
+    height: 10vw;
+    margin-bottom: 2vw;
+  }
+  .top-boxes {
+    float: left;
+    width: 26vw;
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+    height: 15vw;
+    display: inline-block;
+  }
+  .middle {
+    clear: both;
+    float: left;
+    width: 60vw;
+    overflow:auto;
+  }
+  .top-gallery {
+   width: 90%;
+   margin:auto;
+   padding-left: 2%;
+   text-align: center;
+   overflow: hidden;
+   margin-bottom: 3vw;
+  }
+  .bottom {
+    float: right;
+    width: 35%;
+  }
+  .title2 {
+    height: 5vw;
+    clear: both;
+  }
+  .middle-boxes-wrapper {
+    padding: 2vw;
+    width: 100%;
+    overflow: hidden;
+}
+  .middle-boxes{
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    height: 7vw;
+  }
+  .title3 {
+    height: 5vw;
+  }
+  .bottom-boxes-wrapper {
+    padding: 2vw;
+    width: 100%;
+    overflow: hidden;
+}
+  .bottom-boxes{
+    width: 90%;
+    height: 7vw;
+    display: block;
+    margin: auto;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+  }
+}
+
+/*TABLET*/
+@media screen and (min-width:600px) and (max-width:749px) {
+  .title1 {
+    height: 10vw;
+    margin-bottom: 2vw;
+  }
+  .top-boxes {
+    float: left;
+    width: 45%;
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+    height: 15vw;
+    display: inline-block;
+  }
+
+  .middle {
+    clear: both;
+    float: left;
+    width: 100%;
+    overflow:auto;
+  }
+  .top-gallery {
+   width: 90%;
+   margin:auto;
+   padding-left: 2%;
+   text-align: center;
+   overflow: hidden;
+   margin-bottom: 3vw;
+  }
+  .bottom {
+    width: 100%;
+    clear: both;
+  }
+  .title2 {
+    height: 5vw;
+    clear: both;
+  }
+  .middle-boxes-wrapper {
+    padding: 2vw;
+    width: 100%;
+    overflow: hidden;
+}
+  .middle-boxes{
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    height: 7vw;
+  }
+  .title3 {
+    height: 5vw;
+  }
+  .bottom-boxes-wrapper {
+    padding: 2vw;
+    width: 100%;
+    overflow: hidden;
+}
+  .bottom-boxes{
+    width: 90%;
+    height: 7vw;
+    display: block;
+    margin: auto;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+  }
+
+}
+
+/*MOBILE*/
+@media screen and (max-width:599px) {
+  .title1 {
+    height: 10vw;
+    margin-bottom: 2vw;
+  }
+  .top-boxes {
+    width: 100%;
+    margin-bottom: 2vw;
+    height: 15vw;
+    display: block;
+    margin: auto;
+  }
+
+  .middle {
+    width: 100%;
+  }
+  .top-gallery {
+   width: 90%;
+   margin:auto;
+   text-align: center;
+   margin-bottom: 3vw;
+  }
+  .bottom {
+    width: 100%;
+  }
+  .title2 {
+    height: 5vw;
+  }
+  .middle-boxes-wrapper {
+    padding: 2vw;
+    width: 100%;
+}
+  .middle-boxes{
+    width: 90%;
+    margin: 2.5%;
+    height: 7vw;
+    display: block;
+    margin: auto;
+  }
+  .title3 {
+    height: 5vw;
+  }
+  .bottom-boxes-wrapper {
+    padding: 2vw;
+    width: 100%;
+}
+  .bottom-boxes{
+    width: 90%;
+    height: 7vw;
+    display: block;
+    margin: auto;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+  }
+}
