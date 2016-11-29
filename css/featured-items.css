@@ -140,6 +140,19 @@ h3 {
 }
 /*TABLET*/
 @media screen and (min-width:600px) and (max-width:749px) {
+  .menu1-wrapper{
+    text-align: right;
+  }
+  .content1{
+    width: 45%;
+    margin-left: 3.5%;
+    float: left;
+  }
+  .content2 img, .content3 img{
+    width: 100vw;
+    height: 20vh;
+
+  }
 }
 
 /*MOBILE*/
