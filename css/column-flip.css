@@ -1,0 +1,92 @@
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px solid #000;
+}
+
+body {
+  font-family: "Avenir";
+}
+
+/*DESKTOP*/
+@media screen and (min-width:750px) {
+
+  .top-content {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    overflow: hidden;
+  }
+  .circle {
+    width: 5%;
+    height: 3%;
+    border-radius: 100%;
+    float: left;
+    vertical-align: middle;
+  }
+  .small-title1 {
+    float: left;
+    background-color: black;
+    color: white;
+    margin-left: 1%;
+    margin-top: 1%;
+  }
+  .menu1-wrapper {
+    float: right;
+    color: white;
+    overflow: hidden;
+    width: 47%;
+    margin-top: 1%;
+  }
+  .menu {
+    background-color: black;
+    display: inline-block;
+    width: 20%;
+    margin-left: .25%;
+  }
+  .lorem1 {
+    clear: both;
+    float: left;
+    width: 50%;
+    margin-top: 5%;
+  }
+  .lorem1 h4{
+    margin: 0;
+  }
+  .circle1 .circle {
+    float: right;
+    width: 20vw;
+    border-radius: 100%;
+    margin-right: 10%;
+    margin-top: 2%;
+  }
+  .middle-content{
+    clear: both;
+  }
+  .middle-content .square{
+    float: left;
+    /*border: 3px solid red;*/
+
+  }
+  .square {
+    height: 20vh;
+    width: 49%;
+    margin-top: 1%;
+    display: block;
+  }
+  .middle-content-text{
+    float: right;
+    width: 50%;
+    display: inline-block;
+
+  }
+}
+
+/*TABLET*/
+@media screen and (min-width:600px) and (max-width:749px) {
+
+}
+
+/*MOBILE*/
+@media screen and (max-width:599px) {
+
+}
